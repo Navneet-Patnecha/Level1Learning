@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registeration Form</title>
+</head>
+<body>
+    <!-- form actions are for future java script purpose and same
+    goes for name for a thing and value attached with it and id and for are for interlinking
+each other for better user interaction , use select for giving an option and use
+option tag for giving option in form 
+
+basic tags and attribute are
+<label> tag for labelling our input area it contains attribute like "for" to link with id
+    
+<input> tag is ultimate tag with it's main attribute as id for liking , name for giving
+it a name and value for assigning value to our name and type to indicate type-->
+    <h1>FORM</h1>
+    <form action="">
+        <label for="first">First Name</label>
+        <input id="first" type="text" name="firstname" value="pitambar">
+        <label  for="last">Last Name</label>
+        <input id="last" type="text" name="lastName">
+        <br><br>
+        <label for="born">Date Of Birth</label>
+        <input id="born" type="date">
+        <br><br>
+        <label for="mail">E-mail</label>
+        <input id="mail" type="email" name="email" value="xyz@gmail.com">
+        <br><br>
+        <label for="height">Height in cm </label>
+        <input id="height" type="number">
+        <br><br>
+        <label for="weight">weight in kg</label>
+        <input id="weight" type="number">
+        <br><br>
+        <label for="pass">Password</label>
+        <input id="pass" type="password">
+        <p>Enter Your Goal</p>
+        <input id="loss" name="goals" type="radio" value="fatloss">
+        <label  for="loss">Fatloss</label>
+        <input id="gain" name ="goals" type="radio" value="muscle gain">
+        <label for="gain">Muscle Gain</label>
+        <input id="recom" name="goals" type="radio" value="recomposition">
+        <label for="recom">Recomposition</label>
+        <br><br>
+        <p><label for="resume">Upload your resume</label></p>
+        <input id="resume" type="file">
+        <br><br>
+        <label for="check">Are you Above 18</label>
+        <input id="check" type="checkbox">
+        <br><br>
+        <label for="cars">Choose your favourite Car</label>
+        <select name="cars" id="cars">
+            <option value="lamborgini">Lamborgini</option>
+            <option value="mercedes">Mercedes</option>
+            <option value="bmw">BMW</option>
+            <option value="audi">Audi</option>
+        </select>
+            <br><br>
+            <label for="intro">Introduction</label>
+            <textarea name="aboutYourself" id="intro" cols="30" rows="10" value="hi, i am xyz"></textarea>
+       
+        <br><br>
+        <input type="reset">
+        <input type="submit">
+
+
+
+    </form>
+    
+</body>
+</html>
